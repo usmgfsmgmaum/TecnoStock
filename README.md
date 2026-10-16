@@ -47,11 +47,20 @@ tests/           Validación de escenarios y reglas de negocio clave
 *Nota de arquitectura: La dependencia apunta siempre hacia el centro del dominio (Infraestructura → Aplicación → Dominio).*
 
 ---
+## 🔍 Guía de Evaluación y Revisión
 
-## 🔍  Cómo revisarlo
-1. **Informe de Arquitectura:** Leer el documento completo en la carpeta `docs/` (contiene la definición de capas, patrones, ADRs, revisión SOLID y bitácora de IA).
-2. **Diagramas del Sistema:** Abrir y consultar los diagramas de clases y de secuencia ubicados en la carpeta `diagrams/`.
-3. **Trazabilidad:** Verificar la correspondencia de los componentes arquitectónicos con las historias de usuario de la `US-01` a la `US-16` del caso TecnoStock.
+Para facilitar la revisión de la arquitectura del **Equipo 5**, sugerimos seguir estos pasos:
+
+1. **Documentación y Decisiones:** 
+   Inicie revisando el Informe de Arquitectura principal y los registros de decisiones (ADRs) ubicados dentro del directorio `docs/`. Aquí se justifica la exclusión de devoluciones y el manejo de apartados/transferencias.
+
+2. **Exploración de Modelos Visuales:** 
+   Los diagramas de clases y de secuencia se encuentran en `diagrams/`. Si desea editar o visualizar los archivos fuente (Mermaid/PlantUML), puede importarlos en su editor de código o mediante la herramienta *draw.io* (opción *Insertar > Avanzado*).
+
+3. **Validación de Reglas de Negocio (Testing):** 
+   Nuestra lógica de dominio está blindada con pruebas automatizadas (requiere Python 3.9+, sin librerías de terceros). Para ejecutarlas y comprobar las invariantes del negocio, corra el siguiente script en la terminal desde la raíz del proyecto:
+   ```bash
+   ./run_tests.sh
 ---
 
 ## Supuestos pendientes
