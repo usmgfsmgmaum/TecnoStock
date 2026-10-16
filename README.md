@@ -5,8 +5,8 @@ Repositorio de la actividad **Diseño arquitectural del sistema con IA** del cur
 **Integrantes 👥  (Equipo 5):** 
 * Rodrigo Noguera Pérez (`2136238`)
 * Andrik Hasiel Pérez Limón (`2118898`)
-* Erick Antonio Páez Estrada (`2120761`)[cite: 1]  
-**Nombre del Profesor:** M.A Miguel Ángel Gómez Marroquín[cite: 1]
+* Erick Antonio Páez Estrada (`2120761`)\
+**Nombre del Profesor:** M.A Miguel Ángel Gómez Marroquín
 
 ---
 
